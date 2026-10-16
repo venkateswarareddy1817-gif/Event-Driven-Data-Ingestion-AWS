@@ -1,0 +1,31 @@
+
+__pycache__/
+.venv/
+.env
+.aws/
+.pytest_cache/
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# AWS credentials
+.aws/
+credentials
+
+# Test cache
+.pytest_cache/
+
+# Editor files
+.vscode/
